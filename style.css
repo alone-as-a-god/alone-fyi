@@ -92,125 +92,42 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     width: 100vw;
     height: 100vh;
 }
 
 .projects-title{
-    font-size: 7rem;
+    font-size: 5vh;
     font-weight: 50;
     color: #E5E5E5;
     font-kerning: none;
     font-family: 'Caprasimo', sans-serif;
-    margin-bottom: 3rem;
+    margin-bottom: 3vh;
 }
-
-/*
-.projects-title{
-    font-size: 4rem;
-    font-weight: 50;
-    color: #E5E5E5;
-    font-kerning: none;
-    font-family: 'Caprasimo', sans-serif;
-    margin-bottom: 3rem;
-}
- */
 
 .project-container{
     border: 3px solid #E5E5E5;
     padding: 10px 10px 10px 15px;
     border-radius: 20px;
     margin-bottom: 1rem;
-    width: 80%;
-    min-width: 400px;
+    width: min(900px, 90%);
 }
-/*
-.project-container{
-    border: 3px solid #E5E5E5;
-    padding: 10px 10px 10px 15px;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-    margin-left: 30%;
-    margin-right: 30%;
-    width: 50%;
-    min-width: 400px;
-}
- */
+
 .project-container h2{
-    font-size: 4rem;
+    font-size: 3vh;
     font-weight: 100;
     color: #E5E5E5;
     font-kerning: none;
     font-family: 'Caprasimo', sans-serif;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5vh;
 
 }
 
 .project-container p{
-    font-size: 2.5rem;
+    font-size: 2vh;
     font-weight: 50;
     color: #E5E5E5;
     font-kerning: none;
     font-family: 'Montserrat', cursive;
 }
-
-@media (min-width:600px) {
-    .project-container h2{
-        font-size: 3rem;
-        font-weight: 100;
-        color: #E5E5E5;
-        font-kerning: none;
-        font-family: 'Caprasimo', sans-serif;
-        margin-bottom: 0.75rem;
-
-    }
-
-    .project-container p{
-        font-size: 1.5rem;
-        font-weight: 50;
-        color: #E5E5E5;
-        font-kerning: none;
-        font-family: 'Montserrat', cursive;
-    }
-
-    .project-container{
-        border: 3px solid #E5E5E5;
-        padding: 10px 10px 10px 15px;
-        border-radius: 20px;
-        margin-bottom: 1rem;
-        margin-left: 30%;
-        margin-right: 30%;
-        width: 50%;
-        min-width: 400px;
-    }
-
-    .projects-title{
-        font-size: 4rem;
-        font-weight: 50;
-        color: #E5E5E5;
-        font-kerning: none;
-        font-family: 'Caprasimo', sans-serif;
-        margin-bottom: 3rem;
-    }
-}
-
-/*
-.project-container h2{
-    font-size: 3rem;
-    font-weight: 100;
-    color: #E5E5E5;
-    font-kerning: none;
-    font-family: 'Caprasimo', sans-serif;
-    margin-bottom: 0.75rem;
-
-}
-
-.project-container p{
-    font-size: 1.5rem;
-    font-weight: 50;
-    color: #E5E5E5;
-    font-kerning: none;
-    font-family: 'Montserrat', cursive;
-}
- */
