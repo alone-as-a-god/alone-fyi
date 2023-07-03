@@ -8,11 +8,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overscroll-behavior-y: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
+}
+
+
+.page{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .title-container {
@@ -54,9 +72,63 @@ h1 {
     font-weight: 50;
     color: #272932;
     font-kerning: none;
-    /* font-family: 'Caprasimo', cursive;
-
-     font-family: 'Shrikhand', cursive;*/
     font-family: 'Caprasimo', cursive;
     margin-bottom: 2rem;
+}
+
+.second-page{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #272932;
+    background-image: url("wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.projects-title{
+    font-size: 4rem;
+    font-weight: 50;
+    color: #E5E5E5;
+    font-kerning: none;
+    font-family: 'Caprasimo', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.project-container{
+    border: 3px solid #E5E5E5;
+    padding: 10px 10px 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: 40%;
+    min-width: 400px;
+}
+
+.project-container h2{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #E5E5E5;
+    font-kerning: none;
+    font-family: 'Caprasimo', sans-serif;
+    margin-bottom: 0.75rem;
+
+}
+
+.project-container p{
+    font-size: 1.5rem;
+    font-weight: 50;
+    color: #E5E5E5;
+    font-kerning: none;
+    font-family: 'Montserrat', cursive;
 }
